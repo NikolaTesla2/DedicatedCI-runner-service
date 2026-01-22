@@ -1,9 +1,8 @@
 # DedicatedCI-runner-service
-Dedicated self-hosted GitHub/GitLab CI runner for fast, isolated builds. Ideal for freelancers and small dev teams. Best-effort service.
 
-# DedicatedCI Runner Service
-
-**Dedicated self-hosted CI runner for GitHub/GitLab. Fast, isolated builds for freelancers and small dev teams. Best-effort service.**
+**Dedicated self-hosted GitHub/GitLab CI runner for fast, isolated builds. 
+Ideal for freelancers and small dev teams. 
+Best-effort service.**
 
 ---
 
