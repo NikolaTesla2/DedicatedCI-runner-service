@@ -1,0 +1,21 @@
+name: Test Build
+
+# Starte den Build manuell
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    # Läuft nur auf deinem self-hosted Runner
+    runs-on: [self-hosted, customer-A]
+
+    steps:
+      # Code aus dem Repo auschecken
+      - uses: actions/checkout@v3
+
+      # Einfacher Test-Befehl
+      - name: Hello World
+        run: |
+          echo "DedicatedCI Runner funktioniert!"
+          uname -a
+          lscpu
