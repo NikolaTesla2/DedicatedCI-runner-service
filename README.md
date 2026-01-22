@@ -68,3 +68,15 @@ jobs:
 - Invoice issued monthly.
 - No SLA or uptime guarantee.
 - Service is on a Best-Effort basis.
+
+📜 License
+
+- This repository is All Rights Reserved (no license).
+- You may copy the example workflows for private use.
+- If you want public reuse, we can add MIT license later.
+
+⚠️ Notes
+
+- Do not use for production-critical builds.
+- Runner logs are visible on GitHub/GitLab but do not expose other customers’ data.
+- Any issues with builds are resolved on a best-effort basis.
