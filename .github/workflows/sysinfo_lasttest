@@ -1,0 +1,21 @@
+jobs:
+  build:
+    timeout-minutes: 20
+    runs-on: [self-hosted, vm-1]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Systeminfo
+        run: |
+          uname -a
+          nproc
+          free -h
+          df -h
+
+      - name: Fake-Lasttest
+        run: |
+          echo "CPU burn 🔥"
+          yes > /dev/null &
+          PID=$!
+          sleep 10
+          kill $PID
