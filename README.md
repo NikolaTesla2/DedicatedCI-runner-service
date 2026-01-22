@@ -65,7 +65,6 @@ jobs:
 - Dedicated VM: €39 / month
 - Optional shared pool (future, Best-Effort): €19 / month
 - Payment methods: Bank Transfer or PayPal (fees included in PayPal).
-
-Invoice issued monthly. 
-No SLA or uptime guarantee. 
-Service is on a Best-Effort basis.
+- Invoice issued monthly.
+- No SLA or uptime guarantee.
+- Service is on a Best-Effort basis.
