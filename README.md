@@ -44,3 +44,28 @@ jobs:
 ```
 3. Our dedicated VM automatically picks up your job and runs it.
 4. Build logs and artifacts are returned to your GitHub/GitLab interface.
+
+🛡️ Security & Isolation
+
+- Each customer gets their own VM or ephemeral runner.
+- Workspaces are deleted after each job.
+- Outbound access is restricted to necessary endpoints (GitHub/GitLab, NPM registry, etc.)
+- No SSH or direct access to the VM.
+
+🏁 Getting Started
+
+- Contact us to get your runner registration token.
+- Add the runner to your GitHub/GitLab repository:
+- Follow GitHub self-hosted runner guide
+- Use the label provided in your workflow file (runs-on: [self-hosted, linux, customer-A]).
+- Push code or trigger workflow_dispatch to start a build.
+
+💰 Pricing & Payment
+
+- Dedicated VM: €39 / month
+- Optional shared pool (future, Best-Effort): €19 / month
+- Payment methods: Bank Transfer or PayPal (fees included in PayPal).
+
+Invoice issued monthly. 
+No SLA or uptime guarantee. 
+Service is on a Best-Effort basis.
