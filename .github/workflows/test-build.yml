@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     # Läuft nur auf deinem self-hosted Runner
-    runs-on: [self-hosted, customer-A]
+    runs-on: [self-hosted, vm-1]
 
     steps:
       # Code aus dem Repo auschecken
