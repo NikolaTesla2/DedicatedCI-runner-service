@@ -40,3 +40,7 @@ jobs:
         with:
           name: build-output
           path: dist/
+
+```
+3. Our dedicated VM automatically picks up your job and runs it.
+4. Build logs and artifacts are returned to your GitHub/GitLab interface.
